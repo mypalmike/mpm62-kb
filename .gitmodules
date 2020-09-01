@@ -1,0 +1,6 @@
+[submodule "left/MX_Alps_Hybrid.pretty"]
+	path = left/MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "left/random-keyboard-parts.pretty"]
+	path = left/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
