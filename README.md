@@ -5,4 +5,6 @@ Unlike other split keyboards such as ergodox, this design uses a single switch m
 
 ## Status
 
-Currently in early stages, with schematics in progress.
+Currently in early stages.
+
+* 2020-09-04 - Probably not final, but first potentially viable schematic.
