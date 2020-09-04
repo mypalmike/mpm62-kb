@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mpm62-kb-left-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J?
-U 1 1 5F52B43D
-P 8050 3850
-F 0 "J?" H 8100 4367 50  0000 C CNN
-F 1 "Conn_02x08_Counter_Clockwise" H 8100 4276 50  0000 C CNN
-F 2 "" H 8050 3850 50  0001 C CNN
-F 3 "~" H 8050 3850 50  0001 C CNN
-	1    8050 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 2250 3450 2250
 $Comp
@@ -777,41 +767,6 @@ Wire Wire Line
 	4450 5450 5950 5450
 Connection ~ 4450 5450
 Wire Wire Line
-	6450 2450 7750 2450
-Wire Wire Line
-	7750 2450 7750 3550
-Wire Wire Line
-	7750 3550 7850 3550
-Connection ~ 6450 2450
-Wire Wire Line
-	5950 3200 7650 3200
-Wire Wire Line
-	7650 3200 7650 3650
-Wire Wire Line
-	7650 3650 7850 3650
-Connection ~ 5950 3200
-Wire Wire Line
-	5950 5450 7750 5450
-Wire Wire Line
-	7750 5450 7750 3950
-Wire Wire Line
-	7750 3950 7850 3950
-Connection ~ 5950 5450
-Wire Wire Line
-	6450 4700 7650 4700
-Wire Wire Line
-	7650 4700 7650 3850
-Wire Wire Line
-	7650 3850 7850 3850
-Connection ~ 6450 4700
-Wire Wire Line
-	5950 3950 7550 3950
-Wire Wire Line
-	7550 3950 7550 3750
-Wire Wire Line
-	7550 3750 7850 3750
-Connection ~ 5950 3950
-Wire Wire Line
 	3750 2050 3750 2800
 Wire Wire Line
 	3750 2800 3750 3550
@@ -870,69 +825,6 @@ Wire Wire Line
 Connection ~ 6250 4300
 Wire Wire Line
 	6750 2050 6750 4300
-Wire Wire Line
-	6750 2050 6750 1500
-Wire Wire Line
-	6750 1500 8450 1500
-Wire Wire Line
-	8450 1500 8450 3550
-Wire Wire Line
-	8450 3550 8350 3550
-Connection ~ 6750 2050
-Wire Wire Line
-	6250 2050 6250 1400
-Wire Wire Line
-	6250 1400 8550 1400
-Wire Wire Line
-	8550 1400 8550 3650
-Wire Wire Line
-	8550 3650 8350 3650
-Connection ~ 6250 2050
-Wire Wire Line
-	5750 2050 5750 1300
-Wire Wire Line
-	5750 1300 8650 1300
-Wire Wire Line
-	8650 1300 8650 3750
-Wire Wire Line
-	8650 3750 8350 3750
-Connection ~ 5750 2050
-Wire Wire Line
-	5250 2050 5250 1200
-Wire Wire Line
-	5250 1200 8750 1200
-Wire Wire Line
-	8750 1200 8750 3850
-Wire Wire Line
-	8750 3850 8350 3850
-Connection ~ 5250 2050
-Wire Wire Line
-	4750 2050 4750 1100
-Wire Wire Line
-	4750 1100 8850 1100
-Wire Wire Line
-	8850 1100 8850 3950
-Wire Wire Line
-	8850 3950 8350 3950
-Connection ~ 4750 2050
-Wire Wire Line
-	4250 2050 4250 1000
-Wire Wire Line
-	4250 1000 8950 1000
-Wire Wire Line
-	8950 1000 8950 4050
-Wire Wire Line
-	8950 4050 8350 4050
-Connection ~ 4250 2050
-Wire Wire Line
-	3750 2050 3750 900 
-Wire Wire Line
-	3750 900  9050 900 
-Wire Wire Line
-	9050 900  9050 4150
-Wire Wire Line
-	9050 4150 8350 4150
-Connection ~ 3750 2050
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5F5C93A1
@@ -944,4 +836,215 @@ F 3 "" H 5475 2825 60  0001 C CNN
 	1    6100 2850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6450 2450 7000 2450
+Connection ~ 6450 2450
+Wire Wire Line
+	5950 3200 7000 3200
+Connection ~ 5950 3200
+Wire Wire Line
+	5950 3950 7000 3950
+Connection ~ 5950 3950
+Wire Wire Line
+	6450 4700 7000 4700
+Connection ~ 6450 4700
+Wire Wire Line
+	5950 5450 7000 5450
+Connection ~ 5950 5450
+Text GLabel 7000 2450 2    50   Input ~ 0
+ROW0
+Text GLabel 7000 3200 2    50   Input ~ 0
+ROW1
+Text GLabel 7000 3950 2    50   Input ~ 0
+ROW2
+Text GLabel 7000 4700 2    50   Input ~ 0
+ROW3
+Text GLabel 7000 5450 2    50   Input ~ 0
+ROW4
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+U 1 1 5F52B43D
+P 8850 3350
+F 0 "J?" H 8900 3867 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 8900 3776 50  0000 C CNN
+F 2 "" H 8850 3350 50  0001 C CNN
+F 3 "~" H 8850 3350 50  0001 C CNN
+	1    8850 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 3550 0    50   Input ~ 0
+ROW4
+Text GLabel 8650 3450 0    50   Input ~ 0
+ROW3
+Text GLabel 8650 3350 0    50   Input ~ 0
+ROW2
+Text GLabel 8650 3250 0    50   Input ~ 0
+ROW1
+Text GLabel 8650 3150 0    50   Input ~ 0
+ROW0
+Text GLabel 8650 3650 0    50   Input ~ 0
+COL0
+Text GLabel 8650 3750 0    50   Input ~ 0
+COL1
+Text GLabel 9150 3750 2    50   Input ~ 0
+COL2
+Text GLabel 9150 3650 2    50   Input ~ 0
+COL3
+Text GLabel 9150 3550 2    50   Input ~ 0
+COL4
+Text GLabel 9150 3450 2    50   Input ~ 0
+COL5
+Text GLabel 9150 3250 2    50   Input ~ 0
+LED_CAPS
+Text GLabel 9150 3150 2    50   Input ~ 0
+LED_ESC
+$Comp
+L power:GND #PWR?
+U 1 1 5F81D65A
+P 8100 3350
+F 0 "#PWR?" H 8100 3100 50  0001 C CNN
+F 1 "GND" H 8105 3177 50  0000 C CNN
+F 2 "" H 8100 3350 50  0001 C CNN
+F 3 "" H 8100 3350 50  0001 C CNN
+	1    8100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2050 3750 1500
+Connection ~ 3750 2050
+Wire Wire Line
+	4250 2050 4250 1500
+Connection ~ 4250 2050
+Wire Wire Line
+	4750 2050 4750 1500
+Connection ~ 4750 2050
+Wire Wire Line
+	5250 2050 5250 1500
+Connection ~ 5250 2050
+Wire Wire Line
+	5750 2050 5750 1500
+Connection ~ 5750 2050
+Wire Wire Line
+	6250 2050 6250 1500
+Connection ~ 6250 2050
+Wire Wire Line
+	6750 2050 6750 1500
+Connection ~ 6750 2050
+Text GLabel 3750 1500 1    50   Input ~ 0
+COL0
+Text GLabel 4250 1500 1    50   Input ~ 0
+COL1
+Text GLabel 4750 1500 1    50   Input ~ 0
+COL2
+Text GLabel 5250 1500 1    50   Input ~ 0
+COL3
+Text GLabel 5750 1500 1    50   Input ~ 0
+COL4
+Text GLabel 6250 1500 1    50   Input ~ 0
+COL5
+Text GLabel 6750 1500 1    50   Input ~ 0
+COL6
+Text GLabel 9150 3350 2    50   Input ~ 0
+COL6
+Wire Wire Line
+	8100 3350 8100 3050
+Wire Wire Line
+	8100 3050 8650 3050
+$Comp
+L power:+5V #PWR?
+U 1 1 5F890572
+P 9450 2800
+F 0 "#PWR?" H 9450 2650 50  0001 C CNN
+F 1 "+5V" H 9465 2973 50  0000 C CNN
+F 2 "" H 9450 2800 50  0001 C CNN
+F 3 "" H 9450 2800 50  0001 C CNN
+	1    9450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3050 9450 3050
+Wire Wire Line
+	9450 3050 9450 2800
+$Comp
+L power:+5V #PWR?
+U 1 1 5F89874C
+P 1500 2200
+F 0 "#PWR?" H 1500 2050 50  0001 C CNN
+F 1 "+5V" H 1515 2373 50  0000 C CNN
+F 2 "" H 1500 2200 50  0001 C CNN
+F 3 "" H 1500 2200 50  0001 C CNN
+	1    1500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F89BC79
+P 1500 2950
+F 0 "R?" H 1559 2996 50  0000 L CNN
+F 1 "R_Small" H 1559 2905 50  0000 L CNN
+F 2 "" H 1500 2950 50  0001 C CNN
+F 3 "~" H 1500 2950 50  0001 C CNN
+	1    1500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2200 1500 2350
+$Comp
+L Device:LED D?
+U 1 1 5F893C40
+P 1500 2500
+F 0 "D?" V 1539 2383 50  0000 R CNN
+F 1 "LED" V 1448 2383 50  0000 R CNN
+F 2 "" H 1500 2500 50  0001 C CNN
+F 3 "~" H 1500 2500 50  0001 C CNN
+	1    1500 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 2650 1500 2850
+Wire Wire Line
+	1500 3050 1500 3300
+Text GLabel 1500 3300 3    50   Input ~ 0
+LED_CAPS
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8B9471
+P 2000 2200
+F 0 "#PWR?" H 2000 2050 50  0001 C CNN
+F 1 "+5V" H 2015 2373 50  0000 C CNN
+F 2 "" H 2000 2200 50  0001 C CNN
+F 3 "" H 2000 2200 50  0001 C CNN
+	1    2000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F8B9477
+P 2000 2950
+F 0 "R?" H 2059 2996 50  0000 L CNN
+F 1 "R_Small" H 2059 2905 50  0000 L CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "~" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2200 2000 2350
+$Comp
+L Device:LED D?
+U 1 1 5F8B947E
+P 2000 2500
+F 0 "D?" V 2039 2383 50  0000 R CNN
+F 1 "LED" V 1948 2383 50  0000 R CNN
+F 2 "" H 2000 2500 50  0001 C CNN
+F 3 "~" H 2000 2500 50  0001 C CNN
+	1    2000 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 2650 2000 2850
+Wire Wire Line
+	2000 3050 2000 3300
+Text GLabel 2000 3300 3    50   Input ~ 0
+LED_ESC
 $EndSCHEMATC
