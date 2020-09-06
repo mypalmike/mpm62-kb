@@ -8,3 +8,4 @@ Unlike other split keyboards such as ergodox, this design uses a single switch m
 Currently in early stages.
 
 * 2020-09-04 - Probably not final, but first potentially viable schematic.
+* 2020-09-06 - Right-side (more complex) PCB routing complete.
