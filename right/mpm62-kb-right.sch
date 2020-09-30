@@ -811,8 +811,6 @@ Wire Wire Line
 	9500 1550 9500 1000
 Connection ~ 9500 1550
 Wire Wire Line
-	10000 1500 10000 1000
-Wire Wire Line
 	8000 1550 8000 1000
 Connection ~ 8000 1550
 Wire Wire Line
@@ -1080,11 +1078,11 @@ Text GLabel 3800 2400 0    50   Input ~ 0
 COL9
 Text GLabel 3800 2500 0    50   Input ~ 0
 COL8
-Text GLabel 3800 1200 0    50   Input ~ 0
+Text GLabel 3800 1400 0    50   Input ~ 0
 ROW0
 Text GLabel 3800 1300 0    50   Input ~ 0
 ROW1
-Text GLabel 3800 1400 0    50   Input ~ 0
+Text GLabel 3800 1200 0    50   Input ~ 0
 ROW2
 Text GLabel 3800 1500 0    50   Input ~ 0
 ROW3
@@ -1259,4 +1257,7 @@ Connection ~ 7500 3800
 Wire Wire Line
 	7200 4950 8200 4950
 Connection ~ 8200 4950
+Wire Wire Line
+	10000 1000 10000 1550
+Connection ~ 10000 1550
 $EndSCHEMATC
