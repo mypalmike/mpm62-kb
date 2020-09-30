@@ -10,3 +10,9 @@
 [submodule "right/random-keyboard-parts.pretty"]
 	path = right/random-keyboard-parts.pretty
 	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "ProMicroKiCad"]
+	path = ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad.git
+[submodule "digikey-kicad-library"]
+	path = digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library.git
