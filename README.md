@@ -1,7 +1,7 @@
 # mpm62-kb
 Schematics etc for split 62-key 60% keyboard.
 
-Unlike other split keyboards such as ergodox, this design uses a single switch matrix by sharing more lines between PCBs. Essentially a variant of ANSI GH60 in terms of grid layout (should work with the same firmware), with one extra programmable spacebar (right side spacebar will not function without modified firmware).
+Left side uses an arduino pro micro with left-side exit. Right side uses expander. Simple 4-pin connector carries i2c.
 
 ## Status
 
@@ -9,3 +9,4 @@ Currently in early stages.
 
 * 2020-09-04 - Probably not final, but first potentially viable schematic.
 * 2020-09-06 - Right-side (more complex) PCB routing complete.
+* 2020-09-30 - (branch) Both sides updated for throughhole solder and expander to simplify wiring.
